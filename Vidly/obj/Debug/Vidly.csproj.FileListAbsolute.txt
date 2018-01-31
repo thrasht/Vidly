@@ -76,3 +76,8 @@ C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.Migrations.ChangingColumnNameInMembership
 C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationsToCustomerName.resources
 C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddingColumnToMembershipType.resources
 C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdatingDataInMembershipType.resources
+C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddingDayOfBirthdayColumn.resources
+C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.Migrations.NullableDayOfBirth.resources
+C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddingGenresAndColumnsInMovie.resources
+C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateGenres.resources
+C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.Migrations.ChangingColumnNameGenre.resources

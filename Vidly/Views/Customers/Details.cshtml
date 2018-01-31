@@ -5,20 +5,13 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Details</h2>
+<h4>@Model.Name</h4>
 
-<table class="table table-bordered table-hover">
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>Discount Rate</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>@Model.Name</td>
-            <td>@Model.MembershipType.DiscountRate?%</td>
-        </tr>
-    </tbody>
-</table>
-
+<ul>
+    <li>Newsletter: @Model.isSuscribedToNewsletter</li>
+    @if (Model.DateOfBirthday != null)
+    {
+        <li>Birth: @Model.DateOfBirthday</li>
+    }
+    <li>Newsletter: @Model.MembershipType.Description</li>
+</ul>
