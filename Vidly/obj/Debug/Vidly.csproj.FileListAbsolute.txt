@@ -67,3 +67,12 @@ C:\Ingresa\Vidly\Vidly\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.csprojResolveAssemblyReference.cache
 C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.dll
 C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.pdb
+C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.Migrations.InitialModel.resources
+C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.Cache
+C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddIsSuscribedToCustomer.resources
+C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
+C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes.resources
+C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.Migrations.ChangingColumnNameInMembershipType.resources
+C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationsToCustomerName.resources
+C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddingColumnToMembershipType.resources
+C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdatingDataInMembershipType.resources
