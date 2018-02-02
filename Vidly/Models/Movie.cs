@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
@@ -15,6 +16,8 @@ namespace Vidly.Models
         [DefaultValue("getutcdate()")]
         public DateTime DateAdded { get; set; }
         public Genre Genre { get; set; }
+
+        [Required]
         public short GenreId { get; set; }
 
     }

@@ -127,7 +127,12 @@ namespace Vidly.Controllers
 
         public ActionResult Edit(int id)
         {
-            var movie = _context.Movies.Single(c => c.Id == id);
+            var movie = _context.Movies.SingleOrDefault(c => c.Id == id);
+
+            if(movie == null)
+            {
+                return HttpNotFound();
+            }
 
             var viewModel = new MovieFormViewModel()
             {
