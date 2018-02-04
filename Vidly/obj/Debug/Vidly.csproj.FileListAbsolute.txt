@@ -83,3 +83,11 @@ C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateGenres.resources
 C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.Migrations.ChangingColumnNameGenre.resources
 C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddingValidationsToCustomer.resources
 C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddingMovieValidation.resources
+C:\Ingresa\Vidly\Vidly\bin\System.Net.Http.Formatting.dll
+C:\Ingresa\Vidly\Vidly\bin\System.Web.Http.dll
+C:\Ingresa\Vidly\Vidly\bin\System.Web.Http.WebHost.dll
+C:\Ingresa\Vidly\Vidly\bin\System.Net.Http.Formatting.xml
+C:\Ingresa\Vidly\Vidly\bin\System.Web.Http.xml
+C:\Ingresa\Vidly\Vidly\bin\System.Web.Http.WebHost.xml
+C:\Ingresa\Vidly\Vidly\bin\AutoMapper.dll
+C:\Ingresa\Vidly\Vidly\bin\AutoMapper.xml
