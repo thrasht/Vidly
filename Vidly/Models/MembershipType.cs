@@ -16,5 +16,8 @@ namespace Vidly.Models
         [Required]
         [MaxLength(20)]
         public string Description { get; set; }
+
+        public static readonly byte Unknown = 0;
+        public static readonly byte PayAsYouGo = 1;
     }
 }

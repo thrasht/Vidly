@@ -10,11 +10,19 @@ namespace Vidly.Models
     public class Movie
     {
         public int Id { get; set; }
+
+        [Required]
         public String Name { get; set; }
+
+        [Required]
         public DateTime ReleaseDate { get; set; }
+
+        [Required]
+        [Range(1, 20)]
         public int NumberInStock { get; set; }
-        [DefaultValue("getutcdate()")]
-        public DateTime DateAdded { get; set; }
+
+        public DateTime? DateAdded { get; set; }
+
         public Genre Genre { get; set; }
 
         [Required]

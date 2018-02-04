@@ -81,3 +81,5 @@ C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.Migrations.NullableDayOfBirth.resources
 C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddingGenresAndColumnsInMovie.resources
 C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateGenres.resources
 C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.Migrations.ChangingColumnNameGenre.resources
+C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddingValidationsToCustomer.resources
+C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddingMovieValidation.resources

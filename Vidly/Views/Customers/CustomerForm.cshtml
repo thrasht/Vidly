@@ -8,17 +8,21 @@
 
 @using (Html.BeginForm("Save", "Customers"))
 {
+    @Html.ValidationSummary(true, "Por favor, corrige los siguientes errores")
     <div class="form-group">
         @Html.LabelFor(m => m.Customer.Name)
         @Html.TextBoxFor(m => m.Customer.Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Customer.Name)
     </div>
     <div class="form-group">
         @Html.LabelFor(m => m.Customer.DateOfBirthday)
         @Html.TextBoxFor(m => m.Customer.DateOfBirthday, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Customer.DateOfBirthday)
     </div>
     <div class="form-group">
         @Html.LabelFor(m => m.Customer.MembershipTypeId)
         @Html.DropDownListFor(m => m.Customer.MembershipTypeId, new SelectList(Model.MembershipTypes, "Id", "Description"), "Select Membership Type", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Customer.MembershipTypeId)
     </div>
     <div class="checkbox">
         <label>
@@ -26,6 +30,11 @@
         </label>
     </div>
     @Html.HiddenFor(m => m.Customer.Id)
-    <button type="submit" class="btn btn-primary" >Send</button>
+    @Html.AntiForgeryToken()
+    <button type="submit" class="btn btn-primary">Send</button>
 }
 
+@section scripts
+{
+    @Scripts.Render("~/bundles/jqueryval")
+}
