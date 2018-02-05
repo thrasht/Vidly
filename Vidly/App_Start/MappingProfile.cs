@@ -15,11 +15,15 @@ namespace Vidly.App_Start
 
             //Customer Mapper
             Mapper.CreateMap<Customer, CustomerDto>();
-            Mapper.CreateMap<CustomerDto, Customer>();
+            Mapper.CreateMap<CustomerDto, Customer>()
+                .ForMember(c => c.Id, opt => opt.Ignore());
 
             //Movie Mapper
             Mapper.CreateMap<Movie, MovieDto>();
-            Mapper.CreateMap<MovieDto, Movie>();
+            Mapper.CreateMap<MovieDto, Movie>()
+                .ForMember(c => c.Id, opt => opt.Ignore());
+
+            Mapper.CreateMap<MembershipType, MembershipTypeDto>();
 
         }
         

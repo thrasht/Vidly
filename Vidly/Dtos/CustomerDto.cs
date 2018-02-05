@@ -23,5 +23,7 @@ namespace Vidly.Dtos
         
         //[Min18YearsIfAMember]
         public DateTime? DateOfBirthday { get; set; }
+
+        public MembershipTypeDto MembershipType { get; set; }
     }
 }
