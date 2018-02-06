@@ -91,3 +91,4 @@ C:\Ingresa\Vidly\Vidly\bin\System.Web.Http.xml
 C:\Ingresa\Vidly\Vidly\bin\System.Web.Http.WebHost.xml
 C:\Ingresa\Vidly\Vidly\bin\AutoMapper.dll
 C:\Ingresa\Vidly\Vidly\bin\AutoMapper.xml
+C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.Migrations.SeedUsers.resources
