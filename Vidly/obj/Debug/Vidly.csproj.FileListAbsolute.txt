@@ -100,3 +100,4 @@ C:\Ingresa\Vidly\Vidly\bin\Glimpse.EF6.dll
 C:\Ingresa\Vidly\Vidly\bin\Glimpse.Mvc5.dll
 C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddingRentalTable.resources
 C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddingNumberAvailableInMovieTable.resources
+C:\Ingresa\Vidly\Vidly\bin\Elmah.dll
