@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using System.ComponentModel.DataAnnotations;
+using System.Configuration;
 
 namespace Vidly.Models
 {
@@ -31,7 +32,7 @@ namespace Vidly.Models
         public DbSet<Genre> Genres { get; set; }
         public DbSet<Rental> Rentals { get; set; }
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base(ConfigurationManager.AppSettings["SqlConnection"], throwIfV1Schema: false)
         {
         }
 

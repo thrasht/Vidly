@@ -444,6 +444,7 @@
     <Content Include="Content\DataTables\css\common.scss" />
     <Content Include="Content\toastr.scss" />
     <Content Include="Content\toastr.less" />
+    <Content Include="ConnectionStrings.config" />
     <None Include="Properties\PublishProfiles\Server.pubxml" />
     <None Include="Properties\PublishProfiles\test-emotion.pubxml" />
     <None Include="Properties\PublishProfiles\TestServer.pubxml" />
