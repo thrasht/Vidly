@@ -1,0 +1,17 @@
+﻿@model Vidly.Models.Customer
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h4>@Model.Name</h4>
+
+<ul>
+    <li>Newsletter: @Model.isSuscribedToNewsletter</li>
+    @if (Model.DateOfBirthday != null)
+    {
+        <li>Birth: @Model.DateOfBirthday</li>
+    }
+    <li>Newsletter: @Model.MembershipType.Description</li>
+</ul>
