@@ -92,3 +92,11 @@ C:\Ingresa\Vidly\Vidly\bin\System.Web.Http.WebHost.xml
 C:\Ingresa\Vidly\Vidly\bin\AutoMapper.dll
 C:\Ingresa\Vidly\Vidly\bin\AutoMapper.xml
 C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.Migrations.SeedUsers.resources
+C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddDrivingLicenceToApplicationUser.resources
+C:\Ingresa\Vidly\Vidly\bin\Glimpse.Ado.dll
+C:\Ingresa\Vidly\Vidly\bin\Glimpse.AspNet.dll
+C:\Ingresa\Vidly\Vidly\bin\Glimpse.Core.dll
+C:\Ingresa\Vidly\Vidly\bin\Glimpse.EF6.dll
+C:\Ingresa\Vidly\Vidly\bin\Glimpse.Mvc5.dll
+C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddingRentalTable.resources
+C:\Ingresa\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddingNumberAvailableInMovieTable.resources
